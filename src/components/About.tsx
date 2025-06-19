@@ -1,5 +1,5 @@
 
-import { Code, Database, Globe, Smartphone } from "lucide-react";
+import { Code, Database, Globe, } from "lucide-react";
 import { Card, CardContent } from "../components/ui/card";
 
 const About = () => {
