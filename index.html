@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Touil Khalil | Backend Developer</title>
+  <meta name="description" content="Touil Khalil — Backend Developer based in Algiers. Portfolio of web applications, APIs, and data processing projects.">
+  <meta name="keywords" content="Backend Developer Algiers, Touil Khalil, Node.js, NestJS, Next.js, USTHB">
+  <meta property="og:title" content="Touil Khalil | Backend Developer">
+  <meta property="og:description" content="Backend Developer &amp; Full-Stack Enthusiast based in Algiers.">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Cursor Elements -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- SECTION 1: PRELOADER -->
+  <div id="preloader" class="preloader">
+    <div class="pl-content">
+      <div class="pl-text" id="pl-text"></div>
+      <div class="pl-bar-container">
+        <div class="pl-bar" id="pl-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <main class="content-wrapper" id="main-content">
+
+    <!-- SECTION 2: HERO -->
+    <section class="section section-hero">
+      <div class="hero-left">
+        <div class="hero-label fade-up" style="transition-delay: 0s;">ALGIERS, DZ &middot; M1 BIGDATA &middot; BACKEND DEVELOPER
+        </div>
+        <h1 class="hero-title fade-up" style="transition-delay: 0.12s;">Touil</h1>
+        <h1 class="hero-title fade-up" style="transition-delay: 0.24s;">Khalil</h1>
+        <!-- NEW V2: Subtitle -->
+        <h2 class="hero-subtitle fade-up" style="transition-delay: 0.36s;">Backend Developer | Full-Stack Enthusiast</h2>
+        <p class="hero-quote fade-up" style="transition-delay: 0.48s;">"Passionate about large-scale data processing<br>and building secure web applications."</p>
+        <div class="hero-actions fade-up" style="transition-delay: 0.60s;">
+          <a href="https://github.com/khalil-t" target="_blank" rel="noopener noreferrer" class="btn" aria-label="GitHub">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2A10 10 0 0 0 8.84 21.5c.5.08.66-.23.66-.5V19.31C6.73 19.91 6.14 18 6.14 18A2.69 2.69 0 0 0 5 16.5c-.91-.62.07-.6.07-.6a2.1 2.1 0 0 1 1.53 1 2.15 2.15 0 0 0 2.91.83 2.16 2.16 0 0 1 .63-1.34C8 16.17 5.62 15.31 5.62 11.5a3.87 3.87 0 0 1 1-2.71 3.58 3.58 0 0 1 .1-2.64s.84-.27 2.75 1a9.63 9.63 0 0 1 5 0c1.91-1.29 2.75-1 2.75-1a3.58 3.58 0 0 1 .1 2.64 3.87 3.87 0 0 1 1 2.71c0 3.82-2.34 4.66-4.57 4.91a2.39 2.39 0 0 1 .69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2Z" />
+            </svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/khalil-touil" target="_blank" rel="noopener noreferrer" class="btn"
+            aria-label="LinkedIn">
+            <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zM7.119 20.452H3.554V9h3.565v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="hero-right fade-in" id="hero-orb-cluster" style="transition-delay: 0.72s;">
+        <div class="orb-cluster" aria-hidden="true">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="orb orb-3"></div>
+          <div class="orb orb-4"></div>
+          <div class="orb orb-5"></div>
+          <div class="orb orb-6"></div>
+          <div class="orb orb-7"></div>
+          <div class="orb orb-8"></div>
+        </div>
+      </div>
+      <div class="scroll-indicator" id="scroll-indicator">
+        <span class="scroll-label">SCROLL</span>
+        <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SECTION 3: NEXUS ACHIEVEMENT (V2 TWO-COLUMN) -->
+    <section class="section section-insight">
+      <div class="insight-bg" id="insight-bg"></div>
+      <div class="insight-noise"></div>
+
+      <div class="insight-inner scroll-observe">
+        <div class="insight-left">
+          <div class="insight-top-label">&gt; PROFESSIONAL PROFILE &middot; EXPERTISE</div>
+          <div class="insight-stat-massive" style="font-size: clamp(48px, 8vw, 80px); line-height: 1.1; margin-bottom: 32px;">
+            Backend<br>Engineering
+          </div>
+          <div class="insight-metrics-vertical">
+            <p style="color: rgba(249,249,251,0.7); font-size: 16px; line-height: 1.7; margin-bottom: 16px; max-width: 90%;">
+              Specializing in modern web technologies, I focus on the design and development of secure, scalable web applications. My passion for large-scale data processing drives my transition into Big Data, aiming to master data pipelines and advanced architectures.
+            </p>
+            <div class="metric-item-v" style="border-top: 1px solid rgba(139, 47, 255, 0.3); padding-top: 24px; margin-top: 8px;">
+              <div class="metric-val-v text-brand-v" style="font-size: 24px;">Node.js &middot; Next.js &middot; PostgreSQL</div>
+              <div class="metric-lbl-v">Core Technologies</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="insight-right">
+          <div class="achievement-card">
+            <div class="ach-header">
+              Full-Stack &amp; Backend Internships<br>
+              DZ Travel &amp; Univer Delivery | Summer 2025
+            </div>
+            <div class="ach-project-label">Role: Full-Stack Developer</div>
+            <div class="ach-project-desc">
+              Contributed to both front-end interfaces and back-end anomaly management systems across two major platforms.
+            </div>
+            <ul class="ach-bullets">
+              <li>
+                <span class="bullet-arrow">▸</span>
+                <strong>DZ Travel (Jun–Sep)</strong><br>
+                Front-end development with <span class="text-neon-bold">Next.js + TypeScript</span>. Built the blog section for writing, publishing, and reading articles.
+              </li>
+              <li>
+                <span class="bullet-arrow">▸</span>
+                <strong>Univer Delivery (Jul–Aug)</strong><br>
+                Back-end development with <span class="text-neon-bold">Node.js + Express.js</span>. Improved the anomaly management system to optimize delivery processes.
+              </li>
+            </ul>
+            <div class="ach-badges">
+              <div class="ach-badge">⚡ Node.js</div>
+              <div class="ach-badge">⚛️ Next.js</div>
+              <div class="ach-badge">📘 TypeScript</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: PROJECTS -->
+    <section class="section section-projects">
+      <h2 class="section-heading scroll-observe" style="margin-bottom: 4rem;">Selected Work</h2>
+      <div class="projects-grid">
+
+        <div class="card card-neon scroll-card card-delay-0">
+          <div class="card-accent-bar"></div>
+          <img src="assets/mgv.jpeg" alt="MGV Platform" class="card-nomos-img" loading="lazy">
+          <div class="card-tag">Hackathon Platform &middot; Next.js &middot; REST API</div>
+          <h3 class="card-title">MGV Platform</h3>
+          <p class="card-desc">Front-end of a hackathon management platform allowing participants to register, track challenges, and manage their participation online. Built with Next.js and REST APIs.</p>
+        </div>
+
+        <div class="card card-neon scroll-card card-delay-1">
+          <div class="card-accent-bar"></div>
+          <img src="assets/nomos-dz.PNG" alt="E-commerce Platform" class="card-nomos-img" loading="lazy">
+          <div class="card-tag">E-commerce &middot; React &middot; Node.js</div>
+          <h3 class="card-title">E-commerce Platform</h3>
+          <p class="card-desc">Comprehensive web application facilitating online product browsing and purchasing. Developed a robust full-stack architecture using React, Node.js, and MongoDB.</p>
+        </div>
+
+        <div class="card card-neon scroll-card card-delay-2">
+          <div class="card-accent-bar"></div>
+          <img src="assets/SHIPY ai logo.PNG" alt="Real-time Chat App" class="card-nomos-img" loading="lazy">
+          <div class="card-tag">Real-time &middot; Socket.io</div>
+          <h3 class="card-title">Real-time Chat App</h3>
+          <p class="card-desc">Multi-user messaging application built for real-time communication. Engineered with Socket.io to ensure low latency and high reliability message delivery.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: DEV SHELL -->
+    <section class="section section-terminal">
+      <h2 class="section-heading scroll-observe" style="margin-bottom: 4rem;">Interface</h2>
+
+      <div class="terminal-window scroll-observe" id="terminal-window">
+        <!-- V2 updates khalil@nexus -->
+        <div class="terminal-ctrls">
+          <div class="ctrl-lights">
+            <i></i><i></i><i></i>
+          </div>
+          <div class="ctrl-title">khalil@nexus: ~</div>
+        </div>
+        <div class="terminal-view" id="terminal-view">
+          <div class="terminal-scanlines"></div>
+          <div class="terminal-out" id="terminal-out"></div>
+          <div class="terminal-in-row">
+            <span class="terminal-prompt">khalil@nexus:~$</span>
+            <span class="terminal-typed" id="terminal-typed"></span>
+            <span class="terminal-caret"></span>
+          </div>
+          <input type="text" id="terminal-input-real" class="terminal-hidden-input" autocomplete="off"
+            spellcheck="false" aria-label="Terminal command input">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SECTION 6: 3D PRINT ENGINE OVERLAY -->
+  <div class="print-overlay" id="print-overlay" aria-hidden="true">
+    <div class="print-wrapper">
+      <div class="print-sheet" id="print-sheet">
+        <div class="print-laser" id="print-laser"></div>
+        <div class="print-text" id="print-text"></div>
+      </div>
+      <div class="print-ui">
+        <div class="print-status" id="print-status">Compiling resume... 0%</div>
+        <div class="print-progress">
+          <div class="print-bar" id="print-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 7: FOOTER -->
+  <footer class="footer">
+    <div class="footer-copy">&copy; 2026 Touil Khalil</div>
+    <div class="footer-mid">khalil@nexus</div>
+    <div class="footer-actions">
+      <!-- Re-use icon button styling -->
+      <a href="https://github.com/khalil-t" target="_blank" rel="noopener noreferrer" class="btn" aria-label="Khalil GitHub">
+        <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 8.84 21.5c.5.08.66-.23.66-.5V19.31C6.73 19.91 6.14 18 6.14 18A2.69 2.69 0 0 0 5 16.5c-.91-.62.07-.6.07-.6a2.1 2.1 0 0 1 1.53 1 2.15 2.15 0 0 0 2.91.83 2.16 2.16 0 0 1 .63-1.34C8 16.17 5.62 15.31 5.62 11.5a3.87 3.87 0 0 1 1-2.71 3.58 3.58 0 0 1 .1-2.64s.84-.27 2.75 1a9.63 9.63 0 0 1 5 0c1.91-1.29 2.75-1 2.75-1a3.58 3.58 0 0 1 .1 2.64 3.87 3.87 0 0 1 1 2.71c0 3.82-2.34 4.66-4.57 4.91a2.39 2.39 0 0 1 .69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/khalil-touil" target="_blank" rel="noopener noreferrer" class="btn" aria-label="Khalil LinkedIn">
+        <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zM7.119 20.452H3.554V9h3.565v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <button class="btn" id="btn-download-cv-footer" aria-label="Download Khalil's CV">Download CV</button>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="main.js" defer></script>
+  <script src="pdf.js" defer></script>
+</body>
+
+</html>
