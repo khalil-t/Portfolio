@@ -699,6 +699,7 @@ body.loaded .fade-in {
 
 /* Card V2 Updates */
 .card {
+  display: block;
   background: var(--glass);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
